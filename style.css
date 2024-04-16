@@ -1,0 +1,154 @@
+body {
+    text-align: center;
+}
+
+.title-text {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    align-self: center;
+    color: #401F71;
+    line-height: 3;
+    padding-top: 110px;
+}
+
+.top-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #AD88C6;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.gif {
+    margin-top: 200px;
+    margin-bottom: 70px;
+    border-radius: 50%;
+    }
+
+.girly {
+    border-radius: 20%;
+    }
+
+.profile {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    align-self: center;
+    background-color: #AD88C6;;
+    color: #401F71;
+    padding-bottom: 50px;
+}
+
+.intro {
+    width: 30%;
+    line-height: 2;
+    margin: auto;
+   
+}
+
+.skills {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #401F71;
+    background-color: #FB9AD1;
+    padding-top: 60px;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    overflow: hidden;
+    border-style: hidden;
+    border-width: 0px;
+}
+
+.skills > h2 {
+    font-size: 35px;
+    padding-bottom: 50px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 100px;
+}
+
+.gifs {
+    height: 200px;
+    width: 250px;
+}
+
+.small-text {
+    justify-self: start;
+    align-self: start;
+    width: 500px;
+    line-height: 1.5;
+}
+
+.contact-me {
+    line-height: 2;
+    padding-bottom: 50px;
+}
+
+.contact-me > h2 {
+    color: #1C1678;
+    font-size: 35px;
+}
+
+.contact-me > h3 {
+    color: #1C1678;
+    width: 40%;
+    margin: auto;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.contact-me > p {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+button {
+    background-color: #1C1678;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #8576FF;
+}
+
+.bottom-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 2;
+    background-color: #AD88C6;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.magik {
+    height: 200px;
+    padding-bottom: 40px;
+    border-radius: 90%;
+}
