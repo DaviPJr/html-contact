@@ -19,6 +19,9 @@ body {
     @media (min-width: 320px) and (max-width: 768px) {
         display: flex;
         flex-direction: column;
+        .girly {
+            height: 300px
+        }
     };
 }
 
@@ -89,6 +92,13 @@ hr {
     justify-content: center;
     align-content: center;
     padding-bottom: 100px;
+    @media (min-width: 320px) and (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        .small-text {
+            align-self: center;
+        }
+    }
 }
 
 .gifs {
@@ -153,6 +163,10 @@ button:hover {
 
 .magik {
     height: 200px;
-    padding-bottom: 40px;
-    border-radius: 90%;
+    overflow: hidden;
+    border-radius: 20%
+}
+
+div > .magik {
+    margin-bottom: 30px;
 }
