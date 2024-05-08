@@ -20,7 +20,7 @@ body {
         display: flex;
         flex-direction: column;
         .girly {
-            height: 290px
+            height: 250px
         }
     };
 }
@@ -97,6 +97,7 @@ hr {
         flex-direction: column;
         .small-text {
             align-self: center;
+            font-size: 10px;
         }
     }
 }
