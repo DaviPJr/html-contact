@@ -95,9 +95,10 @@ hr {
     @media (min-width: 390px) and (max-width: 844px) {
         display: flex;
         flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
         .small-text {
             align-self: center;
-            font-size: 10px;
         }
     }
 }
